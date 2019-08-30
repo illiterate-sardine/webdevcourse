@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+  Name: Peter Jones
+  Date created: August 27, 2019
+  Most recent revision: August 27, 2019
+  -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Food Restaurant</h1>
+    </header>
+    <hr> <!-- line -->
+    <nav>
+      <p>
+        <a href="home.html" target="_self">Home</a>
+        <a href="menu.html" target="_self">Menu</a>
+        <a href="contact.html" target="_self">Contact Us</a>
+      </p>
+    </nav>
+    <hr>  <!-- line -->
+		<h2>Information Request</h2>
+		<form action="submit.html" method="POST">
+            <!-- Name label and textbox -->
+			<label for="Name">Name:</label><br />
+			<input type="text" id="Name" name="Name"><br />
+            <!-- Email label and textbox -->
+			<label for="email">Email:</label><br />
+			<input type="text" id="email" name="email"><br />
+            <!-- Phone Number label and textbox -->
+			<label for="phone">Phone:</label><br />
+			<input type="text"id="phone" name="phone"><br />
+            <!-- Dropdown menu -->
+			<label for="reason">Reason for Inquiry:</label><br />
+			<select id="reason" name="reason">
+				<option value="catering" selected>Catering</option>
+				<option value="party">Private Party</option>
+				<option value="feedback">Feedback</option>
+				<option value="other">Other</option>
+			</select>
+						<!-- Textarea -->
+			<label for="info">Additional Information:</label><br />
+			<textarea id="info"></textarea><br />
+						<!-- Radio buttons -->
+			<legend>Have you been to the restaurant?</legend><br />
+			<input type="radio" id="choice1" name="questionnaire" value="no">
+			<label for="choice1">No</label><br />
+			<input type="radio" id="choice2" name="questionnaire" value="yes">
+			<label for="choice2">Yes</label><br />
+            <!-- Check list -->
+			<legend>Best days to contact you:</legend><br />
+			<input type="checkbox" id="monday" name="contactDay" value="monday">
+			<label for="monday">M</label>
+			<input type="checkbox" id="tuesday" name="contactDay" value="tuesday">
+			<label for="tuesday">T</label>
+			<input type="checkbox" id="wednesday" name="contactDay" value="wednesday">
+			<label for="wednesday">W</label>
+			<input type="checkbox" id="thursday" name="contactDay" value="thursday">
+			<label for="thursday">Th</label>
+			<input type="checkbox" id="friday" name="contactDay" value="friday">
+			<label for="friday">F</label><br>
+            <!-- Submit button -->
+			<input type="submit" name="submit" value="Send Request">
+		</form>
+		<footer>
+      <hr>
+      <p>1234 Streetname Rd. Greatplace, MN, 55555</p>
+      <p>123-456-7890</p>
+      <p>&copy;2020 Peter Jones. All rights reserved.</p>
+    </footer>
+	</body>
+</html>
