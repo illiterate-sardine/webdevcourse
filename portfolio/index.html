@@ -8,13 +8,19 @@
   <head>
     <meta charset="utf-8">
     <title>Peter Jones' Portfolio</title>
+    <link href="styles/teststyles.css" rel="stylesheet" type="text/css" />
+    <style>
+      header {
+        background-color: darkgray;
+      }
+    </style>
   </head>
   <body>
     <header>
       <h1>Portfolio for Peter Jones</h1>
     </header>
-    <hr>
-    <nav>
+    <hr style="border: thin dotted red">
+    <nav class="border">
       <p>
         <a href="projects.html" target="_self">projects</a>
       </p>
@@ -25,9 +31,9 @@
         <a href="testimonials.html" target="_self">testimonial</a>
       </p>
     </nav>
-    <hr>
+    <hr style="width: 50%; border:2px solid blueviolet">
     <section>
-      <article id="about">
+      <article class="border" id="about">
         <h2><em>About Me</em></h2>
         <img src="images/Peter_Jones.JPG" alt="Peter Jones Portfolio" width="120px">
         <p>stuff about me except it's longer<br>
@@ -97,7 +103,7 @@
         </ul>
       </article>
     </section>
-    <footer>
+    <footer style="background-color: fuchsia">
       <hr>
       <p>&copy;2020 Peter Jones. All rights reserved.</p>
     </footer>
