@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8">
     <title>Peter Jones' Portfolio</title>
-    <link href="styles/teststyles.css" rel="stylesheet" type="text/css" />
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
     <style>
       header {
         background-color: darkgray;
@@ -20,7 +20,7 @@
       <h1>Portfolio for Peter Jones</h1>
     </header>
     <hr style="border: thin dotted red">
-    <nav class="border">
+    <nav class="border" id="links">
       <p>
         <a href="projects.html" target="_self">projects</a>
       </p>
@@ -35,7 +35,7 @@
     <section>
       <article class="border" id="about">
         <h2><em>About Me</em></h2>
-        <img src="images/Peter_Jones.JPG" alt="Peter Jones Portfolio" width="120px">
+        <img src="images/Peter_Jones.JPG" alt="Peter Jones Portfolio" width="120px" style="float:left;">
         <p>stuff about me except it's longer<br>
           stuff about me except it's longer<br>
           stuff about me except it's longer<br>
@@ -44,31 +44,34 @@
           stuff about me except it's longer<br>
           stuff about me except it's longer<br>
           stuff about me except it's longer</p>
+          <div style="clear:both;"></div>
       </article>
       <article id="experience">
         <h2><em>Past Experiences</em></h2>
-        <table border="1">
-          <caption>Employment History</caption>
+        <table align="center">
+          <caption style="font-weight: bold; padding-bottom: 10px">Employment History</caption>
           <tr>
             <th>Years of Employment</th>
             <th>Title</th>
             <th>Company</th>
           </tr>
-          <tr>
-            <td>prev1</td>
-            <td>title1</td>
-            <td>comp1</td>
-          </tr>
-          <tr>
-            <td>prev2</td>
-            <td>title2</td>
-            <td>comp2</td>
-          </tr>
-          <tr>
-            <td>prev3</td>
-            <td>title3</td>
-            <td>comp3</td>
-          </tr>
+          <tbody>
+            <tr>
+              <td>prev1</td>
+              <td>title1</td>
+              <td>comp1</td>
+            </tr>
+            <tr>
+              <td>prev2</td>
+              <td>title2</td>
+              <td>comp2</td>
+            </tr>
+            <tr>
+              <td>prev3</td>
+              <td>title3</td>
+              <td>comp3</td>
+            </tr>
+          </tbody>
         </table>
       </article>
       <article id="hobbies">
