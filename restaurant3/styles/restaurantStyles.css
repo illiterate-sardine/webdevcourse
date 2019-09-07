@@ -1,0 +1,31 @@
+.flex-center {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-title {
+  font-size: 1.2em;
+}
+
+header, p, b {
+  font-family: "Courier New", monospace;
+}
+
+nav .btn {
+  background-color: lightblue;
+  color: black;
+}
+
+nav .btn:hover {
+  font-weight: bold;
+}
+
+nav .btn:visited {
+  color: white;
+}
+
+.table {
+  background-color: white;
+}
